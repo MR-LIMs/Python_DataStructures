@@ -49,7 +49,7 @@ class SinglyLinkedList:
     self.size += 1
 
   # Node 삭제 method
-  def popFront:
+  def popFront(self):
     if len(self) == 0:
       return None
     else:
@@ -60,7 +60,7 @@ class SinglyLinkedList:
       del head_node # 객체 자체를 없애준다.
       return pop_key
 
-  def popBack:
+  def popBack(self):
     if len(self) == 0:
       return None
     else:
@@ -89,7 +89,7 @@ class SinglyLinkedList:
   # 제네레이터 (리스트의 for문과 흡사함 / for i in list:)
   # for x in linkedList:
   #   print(x)
-  def __iterator__(self):
+  def __iter__(self):
     pre_node = self.head
     while pre_node != None:
       yield pre_node  # 제네레이터의 특징 yield : return과 비슷하다.

@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "C:\\Users\\asd85\\AppData\\Local\\Programs\\Python\\Python38"
+  "python.pythonPath": "C:\\Users\\asd85\\AppData\\Local\\Programs\\Python\\Python38",
+  "python.formatting.provider": "autopep8"
 }
